@@ -1,6 +1,11 @@
 // CheckPrime
 #include <iostream>
 using namespace std;
+/*This is 
+ a program to
+ Print Prime or Not
+ */
+
 
 int main(){
 	int n;
