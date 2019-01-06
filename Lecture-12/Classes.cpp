@@ -29,7 +29,7 @@ public:
 	}
 
 	// Copy Constructor
-	// Car D=E; or Car D(E);
+	// Car D=C; or Car D(E);
 	Car(Car &X):tyres(4){
 		name=new char[strlen(X.name)+1];
 		strcpy(name,X.name);
