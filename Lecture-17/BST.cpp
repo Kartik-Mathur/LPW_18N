@@ -156,12 +156,10 @@ Pair Balanced(node* root){
 		p.balance=true;
 		return p;
 	}
-
 	Pair left=Balanced(root->left);
 	Pair right=Balanced(root->right);
 
 	p.height=max(left.height,right.height)+1;
-
 	if(left.balance && right.balance && abs(left.height-right.height)<=1){
 		p.balance=true;
 	}
@@ -182,7 +180,6 @@ node* ArrayToBST(int *a,int s,int e){
 	root->right=ArrayToBST(a,mid+1,e);
 	return root;
 }
-
 
 int main(){
 	int a[]={1,2,5,6,7,8,9};
