@@ -73,7 +73,7 @@ public:
 	}
 
 	void insert(string key,int value){
-		int i=hashFn(key);
+		int i=hashFn(key);cb
 
 		node* n=new node(key,value);
 
